@@ -1,0 +1,51 @@
+.pokemon {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex: 1 1 auto;
+  width: 100%;
+  flex-grow: 4;
+  margin: 10px 10px;
+  border: 1px gray solid;
+  border-radius: 10px;
+}
+
+.pokemons {
+  min-width: 50%;
+  flex-grow: 2;
+}
+
+.pokedex {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px 10px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.buttonsType {
+  margin: 2%;
+}
+
+.buttonsType button {
+  width: 100px;
+  height: 40px;
+  background-color: rgb(255, 173, 22);
+  color: whitesmoke;
+  border: none;
+  margin: 4px;
+  outline-color: rgb(85, 85, 255);
+}
+
+.nextButton button {
+  width: 250px;
+  height: 50px;
+  background-color: rgb(35, 124, 35);
+  color: whitesmoke;
+  border: none;
+  outline-color: rgb(255, 240, 28);
+}
+
+.nextButton button:disabled {
+  background-color: rgb(133, 133, 133);
+}
